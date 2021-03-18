@@ -1,0 +1,8 @@
+<view class='box'>
+  <text class='indate'>入住时间 ：{{checkInDate}}</text>
+  <text class='outdate'>离开时间：{{checkOutDate}}</text>
+  <text class="">{{day}}晚</text>
+</view>
+<navigator url='/pages/calendar/index'>
+  <button>时间选择</button>
+</navigator>
